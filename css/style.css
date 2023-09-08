@@ -74,6 +74,9 @@ p {
   color: #333;
 }
 
+.clr {
+  clear: both;
+}
 /* Navbar. # targets the ID in the HTML */
 #navbar {
   background: #333;
@@ -156,4 +159,25 @@ p {
 
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features section */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Website Footer */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: white;
+  padding: 20px;
 }
